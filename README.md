@@ -154,11 +154,19 @@ namespace tipos_de_dato
                         Console.WriteLine("Sus valores pueden variar entre ±1.0 × 10e−28 y ±7.9 × 10e28");
 
                     }
+                    if (d == 16)
+                    {
+                        m = 0;
+                    }
+
+                    Console.WriteLine("\npresione cualquier tecla para continuar");
                     Console.ReadKey();
+                    Console.Clear();
                 
                 }
             }
         }
     }
 }
+
 
