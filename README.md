@@ -51,28 +51,14 @@ namespace tipos_de_dato
 
                 if (int.TryParse(dato, out d)) 
                 {
-                
+                 if (d == 1) 
+                    {
+                        Console.WriteLine("\n \t El Byte \n");
+                        Console.WriteLine("Su tamaño en bits es igual 8");
+                        Console.WriteLine("Sus valores pueden variar entre 0 y 255");
+                    
+                    }
                 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                
-
-
-
-
-
             }
         }
     }
